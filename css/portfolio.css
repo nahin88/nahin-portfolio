@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* line-height: 30px; */
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    padding: 15px 35px;
+    font-size: 18px;
+    
+    /* font-weight: 700; */
+}
+a{
+    text-decoration: none;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* header and Navigation styles */
+header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 230px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 180px 0 230px ;
+}
+
+.banner-heading{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* about section design */
+.about{
+    margin-top: 130px;
+    padding: 130px 157px;
+    background-color: #FFF8F3;
+    text-align: center;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin: 30px 0;
+    line-height: 30px;
+}
+
+.about-table-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-table{
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-table-container .about-table .about-table-title{
+    color: #757575;
+}
+.about-title-detail{
+    color: #474747;
+    font-weight: 700;
+}
