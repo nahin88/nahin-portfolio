@@ -151,6 +151,7 @@ nav ul li a {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
+    padding: 0 100px;
 }
 
 .skill-container {
@@ -180,3 +181,55 @@ nav ul li a {
 }
 
 /* myResume styles */
+
+.myresume {
+    margin-top: 130px;
+}
+
+.myresume-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+.resume-container {
+    display: flex;
+    margin-top: 130px;
+    gap: 24px;
+}
+
+.resume-item{
+    padding: 30px;
+}
+
+.resume-item h4 {
+    color: #474747;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.resume-detail-title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.resume-detail-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resume-detail-des{
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.resume-btn{
+    text-align: center;
+}
