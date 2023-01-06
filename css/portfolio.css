@@ -16,8 +16,22 @@
     background-color: #FD6E0A;
     padding: 15px 35px;
     font-size: 18px;
+    margin-top: 40px;
 
     /* font-weight: 700; */
+}
+
+.btn-secondary {
+    padding: 15px 35px;
+    margin-left: 50px;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    font-size: 18px;
+}
+
+.btn-secondary a {
+    color: #FD6E0A;
 }
 
 a {
@@ -250,7 +264,7 @@ nav ul li a {
     margin: 130px 0;
 }
 
-.footer-lft a{
+.footer-lft a {
     margin-right: 20px;
 }
 
@@ -264,14 +278,16 @@ nav ul li a {
     font-size: 35px;
 }
 
-.footer-description{
+.footer-description {
     color: #474747;
     margin-top: 20px;
     margin-bottom: 30px;
     width: 85%;
 }
 
-input[type="text"], input[type="email"], textarea{
+input[type="text"],
+input[type="email"],
+textarea {
     padding: 25px 10px;
     margin: 20px 0;
     width: 80%;
