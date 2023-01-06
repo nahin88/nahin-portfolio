@@ -199,7 +199,7 @@ nav ul li a {
     gap: 24px;
 }
 
-.resume-item{
+.resume-item {
     padding: 30px;
 }
 
@@ -224,12 +224,57 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
-.resume-detail-des{
+.resume-detail-des {
     color: #757575;
     line-height: 28px;
     margin-bottom: 30px;
 }
 
-.resume-btn{
+.resume-btn {
     text-align: center;
+}
+
+/* footer Styles */
+
+.footer-container {
+    background: #FFF8F3;
+    margin-top: 110px;
+}
+
+.footer-container main {
+    display: flex;
+    gap: 29px;
+}
+
+.footer-lft {
+    margin-top: 130px;
+}
+
+.footer-lft a{
+    margin-right: 20px;
+}
+
+.footer-rgt {
+    margin-top: 130px;
+}
+
+.footer-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.footer-description{
+    color: #474747;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 85%;
+}
+
+input[type="text"], input[type="email"], textarea{
+    padding: 25px 10px;
+    margin: 20px 0;
+    width: 80%;
+    border: 0;
+    outline: 0;
 }
